@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #393e46;
+  border-width: 5px;
+  width: 50%;
+}
+
+h1,h3,h4{
+  color: #00adb5;
+}
+
+.resumePic {
+  width: 75%;
+}
+
+.skills{
+  text-align: center;
+}

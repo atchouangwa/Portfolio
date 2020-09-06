@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  color: #000;
+  position: absolute;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #393e46;
+  border-width: 5px;
+  width: 40%;
+}
+
+h1 {
+  font-size: 5.62rem;
+  margin: 50px auto 0 auto;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+h2 {
+  font-size: 2.50rem;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+h3 {
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif
+}
+
+a {
+  color: white;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40a8c4;
+}
+
+/* Top Section */
+.navigationBar {
+  background-color: #00adb5;
+}
+
+.top-image, .bottom-image, .computer-image {
+  max-width: 200px;
+  max-height: 200px;
+  padding-top: 20px;
+}
+
+/* Middle Section */
+.computerPics {
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-text {
+  padding: 50px auto 50px;
+}
+
+.skillsPics, .computerPics {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.skillsPics {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+}
+
+#middleSection {
+  padding-top: 20px;
+}
+
+/* Bottom Section */
+.btn {
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 0px 0px #d6e0f0;
+  background-color: #00adb5;
+  border-radius: 28px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #393b44;
+}
+
+.btn:hover {
+  background-color: #393b44;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
+#bottomSection {
+  background-color: #393e46;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* ID Selectors */
+#topSection, #middleSection {
+  background-color: #a6e3e9;
+}

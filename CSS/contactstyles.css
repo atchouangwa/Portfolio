@@ -1,0 +1,77 @@
+a {
+  color: white;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40a8c4;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #393e46;
+  border-width: 5px;
+  width: 40%;
+}
+
+.contactInfo, .qoute-text {
+ padding-left: 7%;
+ padding-right: 7%;
+}
+.contactInfo {
+  padding-bottom: 3%;
+}
+.footer-icons {
+  margin: 20px 10px;
+}
+.qoute-text{
+  padding-top: 3%;
+}
+.navigationBar {
+  background-color: #00adb5;
+}
+ .services-interest{
+   padding-bottom: 0.5%;
+ }
+
+ /* Bottom Section */
+ .button {
+   text-align: center;
+ }
+ .btn {
+   margin-bottom: 10px;
+   box-shadow: 0px 0px 0px 0px #d6e0f0;
+   background-color: #00adb5;
+   border-radius: 28px;
+   border: 1px solid #000000;
+   display: inline-block;
+   cursor: pointer;
+   color: #fff;
+   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+   font-size: 17px;
+   font-weight: bold;
+   padding: 16px 31px;
+   text-decoration: none;
+   text-shadow: 0px 1px 0px #393b44;
+ }
+
+ .btn:hover {
+   background-color: #393b44;
+ }
+
+ .btn:active {
+   position: relative;
+   top: 1px;
+ }
+#middleSection{
+  background-color: #a6e3e9;
+}
+#bottomSection {
+  background-color: #393e46;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
